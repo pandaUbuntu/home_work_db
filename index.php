@@ -1,7 +1,5 @@
 <?php
 
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
 require_once 'vendor/autoload.php';
 require_once 'configuration.php';
 
@@ -14,6 +12,7 @@ $connector = new Repositories\Connector(
     $configuration['user'],
     $configuration['password']
 );
+
 $controller = new $controllerName($connector);
 
 $actionName = isset($_GET['action']) ? $_GET['action'] : 'index';

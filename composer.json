@@ -2,8 +2,8 @@
     "name": "root/geekhub_db",
     "authors": [
         {
-            "name": "Fokk Panda",
-            "email": "fokk190e@gmail.com"
+            "name": "Dmitry Chabanenko",
+            "email": "chdn6026@gmail.com"
         }
     ],
     "autoload": {
@@ -18,7 +18,6 @@
     "require": {
         "php": ">=5.5.0",
         "ext-mysqlnd": "*",
-        "twig/twig": "^2.0@dev",
-        "fzaninotto/faker": "^1.6"
+        "twig/twig": "^2.0@dev"
     }
 }
